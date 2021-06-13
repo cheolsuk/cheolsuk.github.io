@@ -42,7 +42,7 @@
             margin: 0 auto;
         }
         #sub_menu{
-            width:234px;
+            width:200px;
             float:left;
             margin-top: 25px;
         }
@@ -55,9 +55,10 @@
             color : #0078FF;
         }
         #main_contents{
-            width:880px;
+            width:1000px;
             float: right;
-            margin-top: 25px;
+            margin-top: -100px;
+            font-size: 20px;
         }
         #main_contents h3 {
             font-size: : 22px;
@@ -69,7 +70,7 @@
             line-height: 180%;
         }
         #main_contents #figure {
-            margin-top: 30px;
+            margin-top: 10px;
             text-align: center;
             }   
         section{
@@ -77,11 +78,7 @@
             margin-top: 10px;
             margin-left: 50px;
         }
-        aside{
-            float: left;
-            margin-top: 10px;
-            margin-left: 200px;
-        }
+
         footer{
             width: 100%;
             height: 150px;
@@ -102,6 +99,49 @@
             margin: 50px 30px 0 0;
             color :white;
         }
+        .imx{
+            float: left;
+            margin-top: 720px;
+            font-weight: bold;
+        }
+
+        .dropbtn {
+  background-color: #50D6FF;
+  color: white;
+  padding: 15px;
+  font-size: 25px;
+  border: none;
+  }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
+  float:left;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 14px;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #50D6FF;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3232ff;}
 
    
     </style>
@@ -113,22 +153,31 @@
         </div>
 
         <div id ='top'>
-                로그인 ㅣ 회원가입 ㅣ 정보
+                <a href='login.html'>로그인</a> ㅣ <a href='gamouse.html'>회원가입</a>
         </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><img src = './img/USA.png' width='250'></li>
-            <li><img src = './img/USA.png' width='250'></li>
-            <li><img src = './img/USA.png' width='250'></li>
-            <li><img src = './img/USA.png' width='250'></li>
-            <li><img src = './img/USA.png' width='250'></li>
-        </ul>
-    </nav>
-    <section id='contents'>
-        <nav id = 'sub_menu'>
-            <h3>유명한 장소들</h3>
+<section id='contents'>
+
+    <div class = "dropdown">
+        <botton class="dropbtn">유명한 장소들</botton>
+        <div class = "dropdown-content">
+            <a href='bluehole.html'>블루홀</a>
+            <a href='Nka.html'>나스카</a>
+            <a href='bmd.html'>볼리비아</a>
+            <a href='lola.html'>로라이마</a>
+        </div>
+    </div>
+<div class='clear'></div>
+    <div class = "imx">
+        구글어스 바로가기<br>
+        <a href="https://www.google.co.kr/intl/ko/earth/"><img src = './img/googleEarth.jpg'></a>
+    </div>
+
+
+
+
+        <!-- <h3>유명한 장소들</h3>
             <h4>
                 <br>블루홀<br><br>
                 나스카<br><br>
@@ -136,18 +185,29 @@
                 로라이마<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>구글어스 바로가기<br>
                 <img src = './img/googleEarth.jpg'>
             </h2>
-        </nav>
+        </nav> -->
+
+
+
+
+
+
+
     <div id= 'main_contents'>
-        <h3>벨리즈 그레이트 블루홀</h3>
-        <p>아래 사진은 벨리즈에 있는 그레이트 블루홀. 유네스코에서 세계자연유산으로 지정한 곳이다. 이런 지형은 벨리즈, 바하마, 이집트, 오스트레일리아 등에 있다.</p>
+        <h3>세상의 신비로운 곳들을 찾아서</h3>
+        <p>우리가 사는 세상에는 신비로운 것들이 정말 많이 숨겨져 있습니다</p>
         <div id ='figure'>
-            <img src = './img/bluehole.jpg'>
+            <img src = './img/hed.jpg' width="650">
         </div>
-        <p>이 장소는 이곳이 세계 스쿠버 다이빙 장소 베스트 10 중 한 곳이라 알린 자크 쿠스토에 의해 유명해졌다. 1971년 그는 그의 칼립소 호를 타고 구멍의 깊이를 그래프화하기 위해 그레이트 블루홀을 방문했다. 이 탐사에서 이루어진 조사에 따르면이 구멍은 전형적인 석회암 지층의 카르스트 지형이 그 기원이며, 해수면이 상승하기 전에 적어도 4단계에 걸쳐 형성되었다. 21 m (69 ft)와 49 m (161 ft), 그리고 91 m (299 ft)의 깊이에 튀어나온 부분이 남아있다. 물 속에 잠겨 있던 동굴에서 채취한 종유석을 통해서 해수면 위에서 형성되었음을 확인할 수 있다. 종유석들 중 일부는 일관된 방향으로 5도 정도 수직으로부터 기울어져 있는데, 이는 어떤 과거의 지질학적 변화가 있었고 고원과 같은 기울어진 지형이었다가 현재 평평한 면인 상태로 오랜 시간이 흘렀음을 나타낸다.</p>
+        <p>지구에는 우리 인간뿐 아니라 다향안 생물이 서식하고 있으며, 우리가 아직 발견하지 못한 식물과 동물의 종들이 많습니다. 또한 아직 인간이 찾지못한 아름답고 신비로운 장소도 많이 존재하고 있어요.<br>
+            지구의 많은 장소와 생물이 우리에게 신비로 남아있는것처럼 지구상엔 우리가 이해할수없는 불가사의한 장소도 많은데요. 미지의 세계에 흥미를 느끼고 이와 같은것을 배우고 탐구하려는것은 인간의 본성이기 때문에 관심이 가는것은 당연한 일이겠지요
+            <br>함께 더 많은 신비한 장소들을 알아보러 가시죠!
+        </p>
+        <div id ='figure'>
+        <img src = './img/orl.png' width="650">
+    </div>
     </div>        
     </section>
-    <aside>
-    </aside>
     <div class='clear'></div>
     <footer>
         <div id = 'footer_box'>
